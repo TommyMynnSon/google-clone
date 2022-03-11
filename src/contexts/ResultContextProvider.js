@@ -6,7 +6,7 @@ const baseUrl = 'https://google-search3.p.rapidapi.com/api/v1';
 const ResultContextProvider = ({ children }) => {
   const [results, setResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('Trickster Online');
+  const [searchTerm, setSearchTerm] = useState('TypeScript');
 
   const getResults = async (type) => {
     setIsLoading(true);
